@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Talan parking",
+    "slug": "parking",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon2.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mahrziaj.parking"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon2.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.mahrziaj.parking"
+    },
+    "web": {
+      "favicon": "./assets/icon2.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "132ba5b2-123e-41b4-837b-e3ea05e7fd68"
+      }
+    }
+  }
+}
